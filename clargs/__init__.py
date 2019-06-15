@@ -1,5 +1,5 @@
-from .clargs import Arguments
+from .clargs import cli
 
 __version__ = "0.1.0"
 
-__all__ = ["Arguments"]
+__all__ = ["cli"]
