@@ -1,0 +1,8 @@
+README.rst
+setup.py
+clargs/__init__.py
+clargs/clargs.py
+clargs.egg-info/PKG-INFO
+clargs.egg-info/SOURCES.txt
+clargs.egg-info/dependency_links.txt
+clargs.egg-info/top_level.txt

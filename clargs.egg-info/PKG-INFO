@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: clargs
+Version: 0.1.0
+Summary: Parse command line arguments by defining a class.
+Home-page: UNKNOWN
+Author: William Ferreira
+Author-email: wqferr@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6,<4.0
