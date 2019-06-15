@@ -1,4 +1,4 @@
-from clargs import __version__, cli
+from clargs import __version__, cli, Option
 
 
 def test_version():
@@ -7,13 +7,10 @@ def test_version():
 
 def test_thing_2():
     @cli
-    class Sub:
+    class Args:
         x = 2
         y = "my_string"
+        z = Option(str, "DEFAULT")
 
-        def do_thing(self):
-            pass
-
-        @classmethod
-        def class_do_thing(cls):
-            pass
+    args = Args(["a", "-i", "b"])
+    print(args)
